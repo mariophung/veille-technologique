@@ -12,13 +12,14 @@ public class HMDInfoManager : MonoBehaviour
         {
             Debug.Log("No headset plugged");
         }
-        else if (XRSettings.isDeviceActive && (XRSettings.loadedDeviceName == "Mock HMD" || XRSettings.loadedDeviceName == "Mock HMDDisplay"))
+        else if (XRSettings.isDeviceActive && (XRSettings.loadedDeviceName == "Mock HMD"
+            || XRSettings.loadedDeviceName == "MockHMDDisplay"))
         {
             Debug.Log("Using Mock HMD");
         }
         else
         {
-            Debug.Log("We have a headset" + XRSettings.loadedDeviceName);
+            Debug.Log("We have a headset " + XRSettings.loadedDeviceName);
         }
     }
 
