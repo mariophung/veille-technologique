@@ -29,7 +29,8 @@ public class ImportFile : MonoBehaviour
         if (www.result != UnityWebRequest.Result.Success)
         {
             Debug.Log("WWW ERROR" + www.error);
-        } else
+        }
+        else
         {
             textMeshPro.text = www.downloadHandler.text;
         }

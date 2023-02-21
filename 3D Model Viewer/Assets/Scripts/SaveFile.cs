@@ -15,7 +15,7 @@ public class SaveFile : MonoBehaviour
     
     public void OnClickSave()
     {
-        string path = StandaloneFileBrower.SaveFilePanel("Save File", "", "model", "obj");
+        string path = StandaloneFileBrowser.SaveFilePanel("Save File", "", "model", "obj");
         if (!string.IsNullOrEmpty(path))
         {
             File.WriteAllText(path, textMeshPro.text);
