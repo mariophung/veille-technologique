@@ -775,7 +775,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: -1
+  m_XRRenderMode: -3
   m_RenderTexture: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
